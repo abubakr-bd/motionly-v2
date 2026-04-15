@@ -1,0 +1,501 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Motionly Media: Performance-driven video marketing agency focusing on retention and results.">
+    <title>Motionly Media | We Turn Your Content Into High-Performing Assets</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Global WebGL/React-like Cursor Blob -->
+    <div id="cursor-blob"></div>
+    <div id="cursor-blur"></div>
+
+    <nav class="navbar" style="background: rgba(11, 15, 25, 0.7); backdrop-filter: blur(20px); width: 90%; max-width: 1000px; left: 50%; transform: translateX(-50%); border-radius: 50px; top: 1.5rem; border: 1px solid rgba(255,255,255,0.05); padding: 0.8rem 2rem;">
+        <a href="index.html" class="nav-brand" style="color: #fff; font-size: 1.2rem;">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" style="margin-right: 5px;">
+                <path d="M4 18L12 6L20 18" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            Motionly<span style="font-weight: 300;">Media</span>
+        </a>
+        <div class="nav-links" style="display: flex; gap: 2rem;">
+            <a href="index.html" style="color: #e2e8f0; font-size: 0.85rem; font-weight: 600;">Review</a>
+            <a href="services.html" style="color: #e2e8f0; font-size: 0.85rem; font-weight: 600;">Work</a>
+            <a href="portfolio.html" style="color: #e2e8f0; font-size: 0.85rem; font-weight: 600;">Case Study</a>
+            <a href="about.html" style="color: #e2e8f0; font-size: 0.85rem; font-weight: 600;">Process</a>
+        </div>
+        <a href="contact.html" class="btn btn-primary" style="padding: 0.6rem 1.5rem; font-size: 0.9rem; border-radius: 50px; box-shadow: none;">Book A Call</a>
+        <button class="hamburger" style="color: #fff;">â˜°</button>
+    </nav>
+
+    <!-- Homepage Hero -->
+    <header class="hero mesh-hero" style="min-height: auto; padding-bottom: 2rem;">
+        <div class="mesh-bg-1"></div>
+        <div class="mesh-bg-2"></div>
+        <div class="mesh-bg-3"></div>
+
+        <div class="container animate-on-scroll fade-in" style="position: relative; z-index: 10; max-width: 1000px; padding-top: 6rem; text-align: center; display: flex; flex-direction: column; align-items: center;">
+            <h1 style="color: #94a3b8; font-weight: 400; font-size: clamp(2.5rem, 5vw, 4rem); line-height: 1.1; margin-bottom: 1.5rem; text-shadow: 0 4px 20px rgba(0,0,0,0.5);">
+                Get More Leads<br>
+                <span style="color: #ffffff; font-weight: 700;">Using Quality Video Content</span>
+            </h1>
+            <p style="color: #94a3b8; font-weight: 400; font-size: 1.15rem; line-height: 1.6; margin-bottom: 2rem; max-width: 650px; text-shadow: 0 2px 10px rgba(0,0,0,0.5);">
+                We help entrepreneurs and businesses with Done-For-You organic content systems that generate leads on autopilot.
+            </p>
+            
+            <!-- Social Proof -->
+            <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 3rem;">
+                <div style="display: flex; margin-right: -10px;">
+                    <img src="images/employes/abu%20bakar.png" alt="Client" style="width: 40px; height: 40px; border-radius: 50%; border: 2px solid #000; object-fit: cover; z-index: 4; position: relative;">
+                    <img src="images/employes/Wasif.png" alt="Client" style="width: 40px; height: 40px; border-radius: 50%; border: 2px solid #000; object-fit: cover; z-index: 3; position: relative; margin-left: -15px;">
+                    <img src="images/employes/abir.png" alt="Client" style="width: 40px; height: 40px; border-radius: 50%; border: 2px solid #000; object-fit: cover; z-index: 2; position: relative; margin-left: -15px;">
+                    <img src="images/employes/barno.png" alt="Client" style="width: 40px; height: 40px; border-radius: 50%; border: 2px solid #000; object-fit: cover; z-index: 1; position: relative; margin-left: -15px;">
+                </div>
+                <div style="text-align: left;">
+                    <p style="font-size: 0.85rem; font-weight: 700; color: #fff; margin: 0; line-height: 1.2;">Loved by 500+ Businesses worldwide.</p>
+                    <p style="font-size: 0.75rem; color: #94a3b8; margin: 0; line-height: 1.2;">Our Clients Speak for Us</p>
+                </div>
+            </div>
+
+            <a href="contact.html" class="btn btn-primary" style="padding: 0.8rem 2rem; font-size: 1rem; font-weight: 600; border-radius: 50px; display: inline-flex; align-items: center; gap: 0.5rem; margin-bottom: 4rem;">
+                Book A Call
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7"/></svg>
+            </a>
+
+            <!-- Showreel Video Block -->
+            <div class="hero-video animate-on-scroll" style="width: 100%; position: relative; border-radius: 20px 20px 0 0; overflow: hidden; box-shadow: 0 30px 60px rgba(0,0,0,0.5), 0 -10px 40px rgba(88, 101, 242, 0.15); border: 1px solid rgba(255,255,255,0.05); border-bottom: none; aspect-ratio: 16/9; background: linear-gradient(180deg, #16102b, #000); display: flex; align-items: center; justify-content: center; flex-direction: column; transform-origin: top center;">
+                <div style="position: absolute; inset: 0; background: radial-gradient(circle at 50% 100%, rgba(139, 92, 246, 0.4) 0%, transparent 60%); z-index: 1;"></div>
+                
+                <h2 style="position: relative; z-index: 2; font-size: clamp(2rem, 6vw, 5rem); font-weight: 800; color: #fff; letter-spacing: -1px; display: flex; align-items: center; gap: 1rem; margin: 0;">
+                    <svg width="60" height="60" viewBox="0 0 24 24" fill="none" style="filter: drop-shadow(0 0 20px rgba(255,255,255,0.3));">
+                        <path d="M4 18L12 6L20 18" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    MOTIONLY
+                </h2>
+
+                <!-- Subtle avatar graphic at the bottom similar to reference -->
+                <div style="position: absolute; bottom: -30px; left: 50%; transform: translateX(-50%); z-index: 3; display: flex; flex-direction: column; align-items: center;">
+                    <div style="width: 100px; height: 100px; border-radius: 50%; background: radial-gradient(circle, rgba(255,255,255,0.2) 0%, transparent 70%); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.1); display: flex; align-items: center; justify-content: center;">
+                        <span style="display: flex; gap: 20px;">
+                            <div style="width: 6px; height: 6px; background: #fff; border-radius: 50%;"></div>
+                            <div style="width: 6px; height: 6px; background: #fff; border-radius: 50%;"></div>
+                        </span>
+                        <div style="position: absolute; bottom: 30px; width: 20px; height: 2px; background: rgba(255,255,255,0.5); border-radius: 10px;"></div>
+                    </div>
+                    <div style="width: 200px; height: 60px; border-radius: 100px 100px 0 0; background: radial-gradient(circle at top, rgba(255,255,255,0.1) 0%, transparent 100%); backdrop-filter: blur(10px); margin-top: -10px;"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Goodbye To Limitations Section -->
+    <section class="section goodbye-section" style="background: var(--bg-color-light); position: relative; padding: 6rem 0; overflow: hidden; display: flex; align-items: center;">
+        <div class="container" style="display: flex; align-items: center; justify-content: center; gap: 3rem; position: relative; width: 100%;">
+            
+            <div class="goodbye-left" style="font-size: clamp(1.5rem, 2.5vw, 2.5rem); font-weight: 800; color: #111; display: flex; align-items: center; gap: 15px; flex: 1; justify-content: flex-end;">
+                <div style="position: relative; top: -5px;">
+                    <!-- Sparkles/Emphasis lines svg -->
+                    <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="position: absolute; left: -25px; top: -5px; color: #111;">
+                        <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/>
+                    </svg>
+                </div>
+                Wave goodbye to
+            </div>
+
+            <div class="goodbye-right" style="position: relative; height: 350px; width: 600px; display: flex; flex-direction: column; justify-content: center; flex: 1;">
+                <!-- List wrapper that will shift via JS -->
+                <div class="goodbye-list" style="position: absolute; top: 50%; width: 100%; display: flex; flex-direction: column; gap: 1.5rem; transition: transform 0.1s linear;">
+                    
+                    <div class="gb-item" style="font-size: clamp(1.5rem, 2.5vw, 2.5rem); font-weight: 400; color: #ccc; transition: all 0.4s ease; position: relative; width: max-content;">
+                        Endless revisions
+                    </div>
+                    <div class="gb-item" style="font-size: clamp(1.5rem, 2.5vw, 2.5rem); font-weight: 400; color: #ccc; transition: all 0.4s ease; position: relative; width: max-content;">
+                        Flaky freelancers
+                    </div>
+                    <div class="gb-item" style="font-size: clamp(1.5rem, 2.5vw, 2.5rem); font-weight: 400; color: #ccc; transition: all 0.4s ease; position: relative; width: max-content;">
+                        Low conversion
+                    </div>
+                    <div class="gb-item" style="font-size: clamp(1.5rem, 2.5vw, 2.5rem); font-weight: 400; color: #ccc; transition: all 0.4s ease; position: relative; width: max-content;">
+                        Low retention rates
+                    </div>
+                    <div class="gb-item" style="font-size: clamp(1.5rem, 2.5vw, 2.5rem); font-weight: 400; color: #ccc; transition: all 0.4s ease; position: relative; width: max-content;">
+                        Late deliveries
+                    </div>
+                    <div class="gb-item" style="font-size: clamp(1.5rem, 2.5vw, 2.5rem); font-weight: 400; color: #ccc; transition: all 0.4s ease; position: relative; width: max-content;">
+                        Unreliable editors
+                    </div>
+                    <div class="gb-item" style="font-size: clamp(1.5rem, 2.5vw, 2.5rem); font-weight: 400; color: #ccc; transition: all 0.4s ease; position: relative; width: max-content;">
+                        Boring videos
+                    </div>
+
+                </div>
+                
+                <!-- Fading mask to make top and bottom disappear -->
+                <div style="position: absolute; top: 0; left: 0; width: 100%; height: 35%; background: linear-gradient(180deg, var(--bg-color-light) 0%, transparent 100%); z-index: 2; pointer-events: none;"></div>
+                <div style="position: absolute; bottom: 0; left: 0; width: 100%; height: 35%; background: linear-gradient(0deg, var(--bg-color-light) 0%, transparent 100%); z-index: 2; pointer-events: none;"></div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Short Services Overview -->
+    <section class="section section-glow-wrapper">
+        <div class="section-glow"></div>
+        <div class="container">
+            <h2 class="text-center text-gradient mb-5 animate-on-scroll fade-in" style="font-size: 2.5rem;">What We Do</h2>
+            <div class="grid-cards animate-on-scroll fade-in">
+                <div class="card">
+                    <h3 style="color: var(--accent-purple);">Video Editing</h3>
+                    <p>Cinematic, fast-paced workflows designed specifically to maximize viewer retention and emotional resonance.</p>
+                </div>
+                <div class="card">
+                    <h3 style="color: var(--primary-blue);">YouTube SEO</h3>
+                    <p>Algorithmic strategy combined with human psychology to push your content organically to a wider audience.</p>
+                </div>
+                <div class="card">
+                    <h3 style="color: var(--accent-purple);">Thumbnail Design</h3>
+                    <p>High click-through-rate visual hooks that guarantee higher conversions from impressions to viewers.</p>
+                </div>
+                <div class="card">
+                    <h3 style="color: var(--primary-blue);">Content Strategy</h3>
+                    <p>We build the blueprint. You hit record. A fully-managed creative suite for your brand's video presence.</p>
+                </div>
+            </div>
+            <div class="text-center mt-5" style="margin-top: 3rem;">
+                <a href="services.html" class="btn btn-secondary">Learn more about our process</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="section" style="background-color: #fafafa; padding-top: 8rem; overflow: hidden; border-top: 1px solid var(--glass-border);">
+        <div class="container text-center animate-on-scroll fade-in">
+            <div style="display: inline-block; background: var(--primary-blue); color: #fff; padding: 6px 20px; border-radius: 50px; font-size: 0.85rem; font-weight: 700; text-transform: uppercase; margin-bottom: 1.5rem; letter-spacing: 1px;">why choose us</div>
+            <h2 class="mb-3" style="font-size: 3rem; font-weight: 300; color: #111;">Experience the <span style="font-weight: 700; color: var(--primary-blue);">Motionly</span><br>Difference</h2>
+            <p style="color: var(--text-muted); font-size: 1.1rem; max-width: 600px; margin: 0 auto 5rem;">Say goodbye to flaky freelancers and missed deadlines. Discover the reliability of a true creative partner.</p>
+            
+            <div class="vs-container animate-on-scroll" style="display: flex; align-items: stretch; justify-content: center; gap: 3rem; position: relative; max-width: 1100px; margin: 0 auto;">
+                
+                <!-- Left Card Wrapper -->
+                <div class="vs-anim-left" style="z-index: 2; transform-origin: bottom right;">
+                    <!-- Left Card: Solo Freelancers -->
+                    <div class="vs-card vs-card-left"-glare="0.4" style="background: #fdfaf6; border-radius: 20px; padding: 3rem 2rem; width: 500px; text-align: left; position: relative; border: 1px solid #efeae0; box-shadow: 0 20px 40px rgba(0,0,0,0.03);">
+                        <h3 class="text-center mb-5" style="color: #444; font-size: 1.8rem; font-weight: 700;">Solo Freelancers</h3>
+                        <ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 1.8rem;">
+                            <li style="display: flex; gap: 1rem; align-items: flex-start; color: #555; text-align: left;">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="flex-shrink: 0; color: #aaa; margin-top: 3px;"><path d="M20 6L9 17l-5-5"/></svg>
+                                <span style="font-size: 1rem; line-height: 1.6;"><b>Just cutting footage:</b> They chop clips but don't understand retention or pacing.</span>
+                            </li>
+                            <li style="display: flex; gap: 1rem; align-items: flex-start; color: #555; text-align: left;">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="flex-shrink: 0; color: #aaa; margin-top: 3px;"><path d="M20 6L9 17l-5-5"/></svg>
+                                <span style="font-size: 1rem; line-height: 1.6;"><b>Zero marketing knowledge:</b> They make it look "cool" but it doesn't sell or convert.</span>
+                            </li>
+                            <li style="display: flex; gap: 1rem; align-items: flex-start; color: #555; text-align: left;">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="flex-shrink: 0; color: #aaa; margin-top: 3px;"><path d="M20 6L9 17l-5-5"/></svg>
+                                <span style="font-size: 1rem; line-height: 1.6;"><b>Inconsistent schedules:</b> Unreliable Freelancers with slow turnarounds & inconsistent schedules</span>
+                            </li>
+                            <li style="display: flex; gap: 1rem; align-items: flex-start; color: #555; text-align: left;">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="flex-shrink: 0; color: #aaa; margin-top: 3px;"><path d="M20 6L9 17l-5-5"/></svg>
+                                <span style="font-size: 1rem; line-height: 1.6;"><b>Ghosting:</b> They vanish after the deposit is paid.</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Center V/S Badge -->
+                <div class="vs-anim-badge" style="z-index: 3;">
+                    <div class="vs-badge" style="width: 50px; height: 50px; background: #111; color: #fff; font-weight: 800; border-radius: 50%; display: flex; align-items: center; justify-content: center; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); font-size: 1.1rem; box-shadow: 0 10px 20px rgba(0,0,0,0.15);">
+                        V/S
+                    </div>
+                </div>
+                
+                <!-- Connection Line behind V/S -->
+                <div class="vs-anim-line" style="z-index: 1;">
+                    <div class="vs-line" style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 120px; height: 50px; border-bottom: 2px solid #ddd; border-left: 2px solid #ddd; border-right: 2px solid #a855f7; border-radius: 0 0 16px 16px;"></div>
+                </div>
+
+                <!-- Right Card Wrapper -->
+                <div class="vs-anim-right" style="z-index: 2; transform-origin: bottom left;">
+                    <!-- Right Card: Motionly Media -->
+                    <div class="vs-card vs-card-right"-glare="0.5" style="background: #fff; border-radius: 20px; overflow: hidden; width: 500px; text-align: left; position: relative; box-shadow: 0 30px 60px rgba(37, 99, 235, 0.15); border: 2px solid #a855f7; display: flex; flex-direction: column;">
+                        <div style="background: linear-gradient(135deg, #3b82f6, #a855f7); padding: 2rem; text-align: center;">
+                            <h3 style="color: #fff; margin: 0; display: flex; justify-content: center; align-items: center; gap: 10px; font-size: 1.4rem;">
+                                <!-- Generic SVG Logo mapped to Motionly Media text -->
+                                <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5"><path d="M4 18L12 6L20 18"/></svg>
+                                MOTIONLY MEDIA
+                            </h3>
+                        </div>
+                        <ul style="list-style: none; padding: 2.5rem 2rem; margin: 0; display: flex; flex-direction: column; gap: 1.8rem; flex-grow: 1;">
+                            <li style="display: flex; gap: 1rem; align-items: flex-start; color: #333; text-align: left;">
+                                <div style="width: 24px; height: 24px; border-radius: 50%; background: #111; display: flex; justify-content: center; align-items: center; flex-shrink: 0; margin-top: 3px;">
+                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>
+                                </div>
+                                <span style="font-size: 1rem; line-height: 1.6;"><b>Retention-Engineered Edits:</b> We analyze the data to keep viewers watching until the end.</span>
+                            </li>
+                            <li style="display: flex; gap: 1rem; align-items: flex-start; color: #333; text-align: left;">
+                                <div style="width: 24px; height: 24px; border-radius: 50%; background: #111; display: flex; justify-content: center; align-items: center; flex-shrink: 0; margin-top: 3px;">
+                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>
+                                </div>
+                                <span style="font-size: 1rem; line-height: 1.6;"><b>Conversion-Focused:</b> We edit with the sale/lead in mind, not just for aesthetics.</span>
+                            </li>
+                            <li style="display: flex; gap: 1rem; align-items: flex-start; color: #333; text-align: left;">
+                                <div style="width: 24px; height: 24px; border-radius: 50%; background: #111; display: flex; justify-content: center; align-items: center; flex-shrink: 0; margin-top: 3px;">
+                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>
+                                </div>
+                                <span style="font-size: 1rem; line-height: 1.6;"><b>Reliable Delivery System:</b> Our team of motivated experts ensures we stick to the agreed calendar, every time.</span>
+                            </li>
+                            <li style="display: flex; gap: 1rem; align-items: flex-start; color: #333; text-align: left;">
+                                <div style="width: 24px; height: 24px; border-radius: 50%; background: #111; display: flex; justify-content: center; align-items: center; flex-shrink: 0; margin-top: 3px;">
+                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>
+                                </div>
+                                <span style="font-size: 1rem; line-height: 1.6;"><b>Partner, Not Just a Vendor:</b> We care about your growth as much as you do. We are here for a long-term relationship.</span>
+                            </li>
+                            <li style="display: flex; gap: 1rem; align-items: flex-start; color: #333; text-align: left;">
+                                <div style="width: 24px; height: 24px; border-radius: 50%; background: #111; display: flex; justify-content: center; align-items: center; flex-shrink: 0; margin-top: 3px;">
+                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>
+                                </div>
+                                <span style="font-size: 1rem; line-height: 1.6;"><b>Satisfaction-First Revisions:</b> Your vision matters. We refine the edit until it matches exactly what you had in mind.</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Summary -->
+    <section class="section section-glow-wrapper" style="border-top: 1px solid var(--glass-border);">
+        <div class="section-glow" style="background: radial-gradient(circle, rgba(139, 92, 246, 0.05) 0%, transparent 70%);"></div>
+        <div class="container">
+            <div class="text-center mb-5 animate-on-scroll fade-in">
+                <p style="text-transform: uppercase; letter-spacing: 2px; font-weight: 700; color: var(--text-muted); font-size: 0.85rem; margin-bottom: 0.5rem;">Our Work</p>
+                <h2 style="font-size: 3rem; font-weight: 300; color: var(--text-main);">Some Of Our<br><span style="font-weight: 800;">Featured Projects</span></h2>
+            </div>
+            
+            <div class="filter-pills animate-on-scroll fade-in">
+                <div class="pill active" data-filter="youtube">Youtube Videos</div>
+                <div class="pill" data-filter="shorts">Shorts</div>
+                <div class="pill" data-filter="saas">SAAS Videos</div>
+                <div class="pill" data-filter="ads">Ad Creatives & VSL</div>
+            </div>
+
+            <div class="portfolio-grid animate-on-scroll fade-in">
+                <!-- Youtube Videos -->
+                <div class="portfolio-card" data-category="youtube"-glare="0.5">
+                    <iframe width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/KDK1jHJXPrk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="position: absolute; top:0; left:0;"></iframe>
+                </div>
+                <div class="portfolio-card" data-category="youtube"-glare="0.5">
+                    <iframe width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/KDK1jHJXPrk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="position: absolute; top:0; left:0;"></iframe>
+                </div>
+                
+                <!-- Shorts (vertical ratio, but we'll use same card base) -->
+                <div class="portfolio-card" data-category="shorts" style="display: none; opacity: 0; transform: scale(0.95);"-glare="0.5">
+                    <iframe width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/KDK1jHJXPrk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="position: absolute; top:0; left:0;"></iframe>
+                </div>
+                <div class="portfolio-card" data-category="shorts" style="display: none; opacity: 0; transform: scale(0.95);"-glare="0.5">
+                    <iframe width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/KDK1jHJXPrk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="position: absolute; top:0; left:0;"></iframe>
+                </div>
+
+                <!-- SAAS Videos -->
+                <div class="portfolio-card" data-category="saas" style="display: none; opacity: 0; transform: scale(0.95);"-glare="0.5">
+                    <iframe width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/KDK1jHJXPrk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="position: absolute; top:0; left:0;"></iframe>
+                </div>
+                <div class="portfolio-card" data-category="saas" style="display: none; opacity: 0; transform: scale(0.95);"-glare="0.5">
+                    <iframe width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/KDK1jHJXPrk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="position: absolute; top:0; left:0;"></iframe>
+                </div>
+
+                <!-- Ad Creatives & VSL -->
+                <div class="portfolio-card" data-category="ads" style="display: none; opacity: 0; transform: scale(0.95);"-glare="0.5">
+                    <iframe width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/KDK1jHJXPrk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="position: absolute; top:0; left:0;"></iframe>
+                </div>
+                <div class="portfolio-card" data-category="ads" style="display: none; opacity: 0; transform: scale(0.95);"-glare="0.5">
+                    <iframe width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/KDK1jHJXPrk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="position: absolute; top:0; left:0;"></iframe>
+                </div>
+            </div>
+            
+            <div class="text-center mt-5" style="margin-top: 4rem;">
+                <a href="portfolio.html" class="btn btn-secondary" style="font-weight: 600;">View All Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial Video Section -->
+    <section class="section">
+        <div class="container text-center animate-on-scroll fade-in">
+            <p style="text-transform: uppercase; letter-spacing: 2px; font-weight: 700; color: var(--text-muted); font-size: 0.85rem; margin-bottom: 0.5rem;">Client Testimonials</p>
+            <h2 style="font-size: 3rem; font-weight: 300; color: var(--text-main);">Hear What They're<br><span style="font-weight: 800;">Saying About Us</span></h2>
+            
+            <div class="testimonial-container">
+                <div class="testimonial-nav-btn">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+                </div>
+                
+                <div class="testimonial-video-frame">
+                    <iframe width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/_1VaQCNUdnU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="border-radius: 20px;"></iframe>
+                </div>
+
+                <div class="testimonial-nav-btn">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Meet The Team Section (from about.html) -->
+    <section class="section section-glow-wrapper" style="border-top: 1px solid var(--glass-border);">
+        <div class="section-glow"></div>
+        <div class="container">
+            <h2 class="text-gradient mb-5 text-center animate-on-scroll fade-in" style="font-size: 2.5rem;">Meet The Experts</h2>
+            
+            <!-- Custom Premium Team Grid Layout -->
+            <div style="display: grid; grid-template-columns: 80px 1fr; gap: 2rem; max-width: 1000px; margin: 0 auto;">
+                
+                <!-- Vertical Heading Sidebar -->
+                <div style="display: flex; align-items: center; justify-content: center; position: relative;">
+                    <div style="position: absolute; transform: rotate(-90deg); white-space: nowrap; font-size: clamp(2rem, 4vw, 3.5rem); font-weight: 800; letter-spacing: 5px; color: transparent; -webkit-text-stroke: 1px var(--glass-border); opacity: 0.8;">
+                        OUR TEAM
+                    </div>
+                </div>
+                
+                <!-- 2-Column Team Grid container -->
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem;" class="animate-on-scroll fade-in">
+                    
+                    <div class="card"-glare="0.5" style="padding: 0; overflow: hidden; position: relative; border-radius: 16px; background: var(--bg-color-light);">
+                        <div style="position: absolute; inset: 0; background: radial-gradient(circle at top right, rgba(37, 99, 235, 0.1), transparent 70%);"></div>
+                        <div style="padding: 2rem; text-align: center; position: relative; z-index: 2;">
+                            <div style="width: 120px; height: 120px; margin: 0 auto 1.5rem; border-radius: 50%; overflow: hidden; border: 3px solid var(--accent-blue); padding: 4px; box-shadow: 0 10px 25px rgba(37, 99, 235, 0.2);">
+                                <img src="images/employes/abu%20bakar.png" alt="Abu Bakar" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
+                            </div>
+                            <h3 style="font-size: 1.4rem; font-weight: 700; margin-bottom: 0.3rem;">Abu Bakar</h3>
+                            <p style="color: var(--accent-purple); font-weight: 600; font-size: 0.95rem; margin-bottom: 1rem;">Video Editor</p>
+                        </div>
+                    </div>
+                    
+                    <div class="card"-glare="0.5" style="padding: 0; overflow: hidden; position: relative; border-radius: 16px; background: var(--bg-color-light);">
+                        <div style="position: absolute; inset: 0; background: radial-gradient(circle at top right, rgba(139, 92, 246, 0.1), transparent 70%);"></div>
+                        <div style="padding: 2rem; text-align: center; position: relative; z-index: 2;">
+                            <div style="width: 120px; height: 120px; margin: 0 auto 1.5rem; border-radius: 50%; overflow: hidden; border: 3px solid var(--accent-purple); padding: 4px; box-shadow: 0 10px 25px rgba(139, 92, 246, 0.2);">
+                                <img src="images/employes/Wasif.png" alt="Wasif" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
+                            </div>
+                            <h3 style="font-size: 1.4rem; font-weight: 700; margin-bottom: 0.3rem;">Wasif</h3>
+                            <p style="color: var(--accent-blue); font-weight: 600; font-size: 0.95rem; margin-bottom: 1rem;">Video Editor</p>
+                        </div>
+                    </div>
+                    
+                    <div class="card"-glare="0.5" style="padding: 0; overflow: hidden; position: relative; border-radius: 16px; background: var(--bg-color-light);">
+                        <div style="position: absolute; inset: 0; background: radial-gradient(circle at top right, rgba(37, 99, 235, 0.1), transparent 70%);"></div>
+                        <div style="padding: 2rem; text-align: center; position: relative; z-index: 2;">
+                            <div style="width: 120px; height: 120px; margin: 0 auto 1.5rem; border-radius: 50%; overflow: hidden; border: 3px solid var(--accent-blue); padding: 4px; box-shadow: 0 10px 25px rgba(37, 99, 235, 0.2);">
+                                <img src="images/employes/abir.png" alt="Abir" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
+                            </div>
+                            <h3 style="font-size: 1.4rem; font-weight: 700; margin-bottom: 0.3rem;">Abir</h3>
+                            <p style="color: var(--accent-purple); font-weight: 600; font-size: 0.95rem; margin-bottom: 1rem;">Video Editor</p>
+                        </div>
+                    </div>
+                    
+                    <div class="card"-glare="0.5" style="padding: 0; overflow: hidden; position: relative; border-radius: 16px; background: var(--bg-color-light);">
+                        <div style="position: absolute; inset: 0; background: radial-gradient(circle at top right, rgba(139, 92, 246, 0.1), transparent 70%);"></div>
+                        <div style="padding: 2rem; text-align: center; position: relative; z-index: 2;">
+                            <div style="width: 120px; height: 120px; margin: 0 auto 1.5rem; border-radius: 50%; overflow: hidden; border: 3px solid var(--accent-purple); padding: 4px; box-shadow: 0 10px 25px rgba(139, 92, 246, 0.2);">
+                                <img src="images/employes/barno.png" alt="Barno" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
+                            </div>
+                            <h3 style="font-size: 1.4rem; font-weight: 700; margin-bottom: 0.3rem;">Barno</h3>
+                            <p style="color: var(--accent-blue); font-weight: 600; font-size: 0.95rem; margin-bottom: 1rem;">Video Editor</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-5" style="margin-top: 3rem;">
+                <a href="about.html" class="btn btn-secondary" style="font-weight: 600;">Learn more about our team</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section">
+        <div class="container animate-on-scroll fade-in" style="max-width: 800px;">
+            <h2 class="text-center mb-5" style="font-size: 2.5rem;">Frequently Asked <span style="font-weight: 800;">Questions</span></h2>
+            
+            <div class="faq-list">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>What is the typical turnaround time for a video?</span>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+                    </div>
+                    <div class="faq-answer">
+                        For standard YouTube videos, our turnaround time is typically 48 to 72 hours. Shorts and TikToks are usually delivered within 24 hours. We pride ourselves on speed without sacrificing quality.
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Do I need to provide the script and raw footage?</span>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="transform: rotate(180deg); transition: transform 0.3s;"><path d="M6 9l6 6 6-6"/></svg>
+                    </div>
+                    <div class="faq-answer" style="display: block;">
+                        We are a full-service agency. While you can provide your own raw footage, we also offer complete Done-For-You packages where we script, direct, edit, and optimize the final content.
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>How do we communicate during a project?</span>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+                    </div>
+                    <div class="faq-answer">
+                        All clients receive a dedicated Slack channel integrating directly with our editing teams and project managers, ensuring seamless, real-time communication.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section section-glow-wrapper" style="padding: 8rem 0; border-top: 1px solid var(--glass-border);">
+        <div class="section-glow"></div>
+        <div class="container text-center animate-on-scroll fade-in">
+            <h2 class="mb-3" style="font-size: 3rem;">Ready to dominate your niche?</h2>
+            <p class="mb-4" style="max-width: 600px; margin: 0 auto; color: var(--text-muted); font-size: 1.1rem;">Stop stressing over edits. Partner with Motionly and free your time up to focus on what you do bestâ€”creating.</p>
+            <a href="contact.html" class="btn btn-primary" style="font-size: 1.2rem; padding: 1rem 2.5rem;">Book a Free Strategy Call</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-links">
+                    <span class="nav-brand mb-2" style="font-size: 1.2rem;">Motionly Media</span>
+                    <p style="color: var(--text-muted); font-size: 0.9rem;">We don't edit for views. We edit for retention and results.</p>
+                </div>
+                <div class="footer-links">
+                    <h4 style="margin-bottom: 1rem; color: #fff;">Navigation</h4>
+                    <a href="index.html">Home</a>
+                    <a href="services.html">Services</a>
+                    <a href="portfolio.html">Portfolio</a>
+                    <a href="about.html">About us</a>
+                </div>
+                <div class="footer-links">
+                    <h4 style="margin-bottom: 1rem; color: #fff;">Connect</h4>
+                    <a href="contact.html">Contact Us</a>
+                    <a href="#">Instagram</a>
+                    <a href="#">Twitter/X</a>
+                    <a href="#">LinkedIn</a>
+                </div>
+                <div class="footer-links">
+                    <h4 style="margin-bottom: 1rem; color: #fff;">Legal</h4>
+                    <a href="legal.html">Privacy Policy</a>
+                    <a href="legal.html">Terms & Conditions</a>
+                    <a href="legal.html">Refund Policy</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Motionly Media. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Motionly Media Portfolio - Check out our before/after edits, showreels, and premium video marketing results.">
+    <title>Portfolio | Motionly Media</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar" style="background: rgba(11, 15, 25, 0.7); backdrop-filter: blur(20px); width: 90%; max-width: 1000px; left: 50%; transform: translateX(-50%); border-radius: 50px; top: 1.5rem; border: 1px solid rgba(255,255,255,0.05); padding: 0.8rem 2rem;">
+        <a href="index.html" class="nav-brand" style="color: #fff; font-size: 1.2rem;">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" style="margin-right: 5px;">
+                <path d="M4 18L12 6L20 18" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            Motionly<span style="font-weight: 300;">Media</span>
+        </a>
+        <div class="nav-links" style="display: flex; gap: 2rem;">
+            <a href="index.html" style="color: #e2e8f0; font-size: 0.85rem; font-weight: 600;">Home</a>
+            <a href="services.html" style="color: #e2e8f0; font-size: 0.85rem; font-weight: 600;">Services</a>
+            <a href="portfolio.html" style="color: #e2e8f0; font-size: 0.85rem; font-weight: 600;">Portfolio</a>
+            <a href="about.html" style="color: #e2e8f0; font-size: 0.85rem; font-weight: 600;">About Us</a>
+        </div>
+        <a href="contact.html" class="btn btn-primary" style="padding: 0.6rem 1.5rem; font-size: 0.9rem; border-radius: 50px; box-shadow: none;">Book A Call</a>
+        <button class="hamburger" style="color: #fff;">☰</button>
+    </nav>
+
+    <header class="section" style="padding-top: 150px; padding-bottom: 3rem;">
+        <div class="container text-center animate-on-scroll fade-in">
+            <h1 class="text-gradient mb-3" style="font-size: 3.5rem;">Our Work Speaks.</h1>
+            <p style="font-size: 1.2rem; max-width: 600px; margin: 0 auto; color: var(--text-muted);">
+                Swipe, watch, and analyze. See exactly how we turn standard raw footage into high-retention digital assets.
+            </p>
+        </div>
+    </header>
+
+    <!-- Before & After Slider Section -->
+    <section class="section" style="padding-top: 2rem;">
+        <div class="container animate-on-scroll fade-in">
+            <h2 class="text-center mb-5" style="font-size: 2.2rem;">Before & After Experience</h2>
+            
+            <div class="ba-container mb-4">
+                <!-- Using Unsplash placeholders to represent "Raw Footage" vs "Color Graded & Edited" -->
+                <img src="https://images.unsplash.com/photo-1579308182903-a20c326065d7?auto=format&fit=crop&w=800&q=80" alt="Raw Footage" class="ba-image">
+                <img src="https://images.unsplash.com/photo-1621619856624-42fd193a0661?auto=format&fit=crop&w=800&q=80" alt="Edited and Graded" class="ba-image ba-after">
+                <div class="ba-slider-handle"></div>
+                
+                <!-- Labels -->
+                <div style="position:absolute; bottom: 20px; left: 20px; background: rgba(0,0,0,0.6); padding: 5px 15px; border-radius: 20px; z-index: 1;">RAW FILE</div>
+                <div style="position:absolute; bottom: 20px; right: 20px; background: var(--gradient-primary); padding: 5px 15px; border-radius: 20px; z-index: 1;">MOTIONLY EDIT</div>
+            </div>
+            
+            <p class="text-center text-muted" style="max-width: 600px; margin: 0 auto;">
+                Slide to unveil the difference a professional grade, color correction, and dynamic framing brings to standard footage.
+            </p>
+        </div>
+    </section>
+
+    <!-- Demo Reels & Projects -->
+    <section class="section section-glow-wrapper">
+        <div class="section-glow"></div>
+        <div class="container">
+            <h2 class="text-gradient mb-5 text-center animate-on-scroll fade-in" style="font-size: 2.5rem;">Client Success Reels</h2>
+            
+            <div class="filter-pills animate-on-scroll fade-in">
+                <div class="pill active" data-filter="youtube">Youtube Videos</div>
+                <div class="pill" data-filter="shorts">Shorts</div>
+                <div class="pill" data-filter="saas">SAAS Videos</div>
+                <div class="pill" data-filter="ads">Ad Creatives & VSL</div>
+            </div>
+
+            <div class="portfolio-grid animate-on-scroll fade-in">
+                <!-- Youtube Videos -->
+                <div class="portfolio-card" data-category="youtube">
+                    <iframe width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/KDK1jHJXPrk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="position: absolute; top:0; left:0;"></iframe>
+                </div>
+                <div class="portfolio-card" data-category="youtube">
+                    <iframe width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/KDK1jHJXPrk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="position: absolute; top:0; left:0;"></iframe>
+                </div>
+                
+                <!-- Shorts (vertical ratio, but we'll use same card base) -->
+                <div class="portfolio-card" data-category="shorts" style="display: none; opacity: 0; transform: scale(0.95);">
+                    <iframe width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/KDK1jHJXPrk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="position: absolute; top:0; left:0;"></iframe>
+                </div>
+                <div class="portfolio-card" data-category="shorts" style="display: none; opacity: 0; transform: scale(0.95);">
+                    <iframe width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/KDK1jHJXPrk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="position: absolute; top:0; left:0;"></iframe>
+                </div>
+
+                <!-- SAAS Videos -->
+                <div class="portfolio-card" data-category="saas" style="display: none; opacity: 0; transform: scale(0.95);">
+                    <iframe width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/KDK1jHJXPrk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="position: absolute; top:0; left:0;"></iframe>
+                </div>
+                <div class="portfolio-card" data-category="saas" style="display: none; opacity: 0; transform: scale(0.95);">
+                    <iframe width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/KDK1jHJXPrk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="position: absolute; top:0; left:0;"></iframe>
+                </div>
+
+                <!-- Ad Creatives & VSL -->
+                <div class="portfolio-card" data-category="ads" style="display: none; opacity: 0; transform: scale(0.95);">
+                    <iframe width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/KDK1jHJXPrk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="position: absolute; top:0; left:0;"></iframe>
+                </div>
+                <div class="portfolio-card" data-category="ads" style="display: none; opacity: 0; transform: scale(0.95);">
+                    <iframe width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/KDK1jHJXPrk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="position: absolute; top:0; left:0;"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Global CTA -->
+    <section class="section" style="border-top: 1px solid var(--glass-border);">
+        <div class="container text-center animate-on-scroll fade-in">
+            <h2 class="mb-3" style="font-size: 2.5rem;">Your video could be our next case study.</h2>
+            <a href="contact.html" class="btn btn-primary mt-3" style="font-size: 1.1rem; padding: 1rem 3rem;">Inquire Now</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                ... (Same links) ...
+                <div class="footer-links">
+                    <span class="nav-brand mb-2" style="font-size: 1.2rem;">Motionly Media</span>
+                    <p style="color: var(--text-muted); font-size: 0.9rem;">We don't edit for views. We edit for retention and results.</p>
+                </div>
+                <div class="footer-links">
+                    <h4 style="margin-bottom: 1rem; color: #fff;">Navigation</h4>
+                    <a href="index.html">Home</a>
+                    <a href="services.html">Services</a>
+                    <a href="portfolio.html">Portfolio</a>
+                    <a href="about.html">About us</a>
+                </div>
+                <div class="footer-links">
+                    <h4 style="margin-bottom: 1rem; color: #fff;">Connect</h4>
+                    <a href="contact.html">Contact Us</a>
+                    <a href="#">Instagram</a>
+                    <a href="#">Twitter/X</a>
+                    <a href="#">LinkedIn</a>
+                </div>
+                <div class="footer-links">
+                    <h4 style="margin-bottom: 1rem; color: #fff;">Legal</h4>
+                    <a href="legal.html">Privacy Policy</a>
+                    <a href="legal.html">Terms & Conditions</a>
+                    <a href="legal.html">Refund Policy</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Motionly Media. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
